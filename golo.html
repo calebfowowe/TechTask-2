@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/GOLOPROJ/Golo-CSS/reset.css">
+    <link rel="stylesheet" href="/GOLOPROJ/Golo-CSS/menu-bar.css">
     <link rel="stylesheet" href="/GOLOPROJ/Golo-CSS/golo.css">
     <link rel="stylesheet" href="/GOLOPROJ/Golo-CSS/othermenu.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet"> 
@@ -46,21 +48,41 @@
         </div>
     </div>
     <div class="menu-bar">
-        <nav class="menu-bar-lhs">
-            <div class="Golo-text">
-                <a href="">Golo.</a> 
-            </div>
-            <div class="top-search">
-                <form action="">
-                    <span>
-                        <input type="text" name="text" id="text" placeholder="Search places,cities" class="search-box-top">
-                    </span>
+        <div class="menu-bar-lhs">
+            <a href="#"><div class="Golo-text">Golo.</div></a>
+            <div class="Golo-form">
+                <form class="Golo-form-bar" action="">
+                    <button class="menu-search-button" type="submit"><i class="fa fa-search"></i>
+                    </button>
+                    <input type="text" placeholder="Search places,cities" class="search-box-top">
                 </form>
             </div>
-        </nav>
-        <div class="menu-bar-rhs">
         </div>
-    </div>
+        <div class="menu-bar-rhs">
+            <div class="menu-bar-rhs-whole">
+                <div class="Dropdown">
+                    <a href="" class="Destination-Button"> Destinations
+                    </a>
+                    <div class="Destination-dropdown">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <a href="">Login</a>
+                <a href="">Sign Up</a>
+                <a href="">Cart</a>
+                <a href="" class="Add-class-button">
+                   <button class="button-text">
+                    +Add Place
+                   </button> 
+                </a>
+            </div>
+        </div>
+    </div> 
     <div class="box-1">
             <div class="box-1-lhs">
                 <div class="text">
